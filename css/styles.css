@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+.padre {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+    background-color: cadetblue;
+}
+
+.hijo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Para centrar exactamente */
+    background-color: rgb(78, 174, 129);
+    width: 80px; /* Ancho y alto ajustados */
+    height: 80px;
+    border: 2px solid black;
+}
