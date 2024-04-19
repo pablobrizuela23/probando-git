@@ -13,7 +13,7 @@
     height: 300px;
     border: 2px solid black;
     position: relative;
-    background-color: cadetblue;
+    background-color: rgb(61, 234, 75);
 }
 
 .hijo {
@@ -21,7 +21,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Para centrar exactamente */
-    background-color: rgb(78, 174, 129);
+    background-color: rgb(81, 96, 89);
     width: 80px; /* Ancho y alto ajustados */
     height: 80px;
     border: 2px solid black;
